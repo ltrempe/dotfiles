@@ -164,7 +164,7 @@
 #
 # http://powersoffour.org/blog/?p=649
 # Workspace
-# Posted August 10, 2008 
+# Posted August 10, 2008
 #
 # MORE:
 # http://www.linuxwiki.de/screen
@@ -232,7 +232,7 @@
 # This results in programs waiting for some timeout when
 # they start up - and this just keeps getting in my way.
 # I therefore unset the DISPLAY variable with this command:
-## unsetenv DISPLAY
+ unsetenv DISPLAY
 # Text Tools rule!  :-)
 #
 # Note:  the command "setenv DISPLAY ''"
@@ -265,7 +265,7 @@
 # alias Ex='screen -X escape ^Zz' # if you do not use suspend in shells
 #
 # define *F11* as another command key:
-# bindkey -k F1 command
+ bindkey -k F1 command
 #
 # 2010-04-11
 # use CTRL-Z as yet another command character:
@@ -381,10 +381,10 @@
 # shell:  Default process started in screen's windows.
 # Makes it possible to use a different shell inside screen
 # than is set as the default login shell.  Halleluja! :-)
-  shell         zsh
+# shell         zsh
 #
 # most users will probably use the "bash" as the default shell:
-# shell         bash
+  shell         bash
 # shell         ksh
 # shell         tcsh
 # for an overview to shells see page http://georg.f-451.net/shells/
@@ -476,7 +476,7 @@
 # combining all of these gives:
 # hardstatus alwayslastline "%{rw}%H%{wk}|%c|%M%d|%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{wk}%?%+Lw%?"
 #
-# this uses a black background foreverything execpt for
+# this uses a black background foreverything except for
 # the current window which is show on a white background.
 # hostname in red, clock in green, date in yellow:
 # hardstatus alwayslastline "%{rk}%H %{gk}%c %{yk}%M%d %{wk}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{wk}%?%+Lw%?"
@@ -490,6 +490,7 @@
 # instead, the info gets placed at 16%, 50%, and 80% so that it is
 # placed soemwhat in the middle of each of the three panels.
 # hardstatus alwayslastline "%{RY}%16=%H %33=%{YR}%50=%M%d %66=%{Gb}%80=%c%="
+ hardstatus alwayslastline "%{bG} %H %66=%{Gb}%80=%d%M %c%="
 #
 # 2003-08-19
 # insert the main url of the screen pages:
@@ -500,16 +501,18 @@
 #
 # 2005-04-06: host load time Month+day
 # hardstatus alwayslastline "%{RY}%H %{BW}%l %{Gb}%c %M%d"
+#  hardstatus alwayslastline "%{YR}%H %{BW}%c %M%d%="
 #
 # current HARDSTATUS [2005-04-12]
 # patterns: host, load, time, date.
 # the "%=" at the end extends the current color unto the end of the line.
 # hardstatus alwayslastline "%{= RY}%H %{BW}%l %{Gb}%c %M%d%="
 # 2009-01-11 18:00: changed to date+time, ie "YYYY-MM-DD HH:MM":
-  hardstatus alwayslastline "%{Gb}%Y-%m-%d %c %{= RY}%H %{BW}%l%{Gb} %="
+#  hardstatus alwayslastline "%{Gb}%Y-%m-%d %c %{= RY}%H %{BW}%l%{Gb} %="
 #
 # Eisenstadt
 # hardstatus alwayslastline "%{Gb}Linuxwochen Eisenstadt  %M%d %c %="
+#  hardstatus alwayslastline "%{Gb} %M%d %c %="
 #
 # Wien
 # hardstatus alwayslastline "%{Gb}%M%d %c -- Linuxwochen Wien 2005 - Z-Shell Featurama%="
@@ -553,9 +556,9 @@
 #
 # sorendition 10 99 # default!
 # sorendition 02 40 # green  on black
-# sorendition 02 34 # yellow on blue
+ sorendition 02 34 # yellow on blue
 # sorendition    rw # red    on white
-  sorendition    kG # black  on bold green
+# sorendition    kG # black  on bold green
 # =====================================================
 #
 #
@@ -674,7 +677,7 @@
 # fit         F
 # flow        ^F f
 # bind           f      screen -t FETCH fetchmail -a
-  bind           f      screen -t DE<>FR links http://dict.leo.org/frde?lang=de&lp=frde
+# bind           f      screen -t DE<>FR links http://dict.leo.org/frde?lang=de&lp=frde
 # focus       ^I
 # hardcopy    h
 # help        ?
@@ -938,9 +941,9 @@
 # bind D screen -t DRESDEN  4 links http://linux-info-tag.de/100/room?track=17
 # bind D screen -t DRESDEN  4 links http://linux-info-tag.de/93/room?track=14 # program 2007
   bind E screen -t DEEPSEC    links http://www.deepsec.net/
-  bind e screen -t mail     0 mutt
+  bind e screen -t mail     1 mutt
   bind F screen -t FSCONS   4 links http://www.fscons.org/
-  bind G screen -t Google   0 links www.google.com
+  bind G screen -t Google   0 lynx  www.google.com
   bind H screen -t Heise    0 links www.heise.de
   bind I screen -t IMDB     9 links http://us.imdb.com/search/
 # bind J screen -t Kunstlab 0 links http://kunstlabor.at/
@@ -951,7 +954,7 @@
   bind N screen -t NB       8 newsbeuter
 # bind O screen -t WOS3     0 links http://wizards-of-os.org/
   bind P paste .
-  bind Q screen -t HOME     0 links http://www.guckes.net/
+# bind Q screen -t HOME     0 links http://www.guckes.net/
 # bind R screen -t BRB      0 links http://www.linuxtag-brb.de/vortragsprogramm.html
 # Reload this configuration file after changes:
   bind R colon "source $HOME/.screenrc"
@@ -1526,3 +1529,5 @@ bind " " select 0
 # nowrap : do not wrap lines which are longer
 #          than the line length on the terminal.
 # vim: set et ts=8 nowrap: THPXRF EOF
+
+shelltitle "$ |bash"
