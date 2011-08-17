@@ -1,4 +1,4 @@
-# =====================================================================
+j =====================================================================
 # File:             $HOME/.screenrc of Sven Guckes
 # Available:        http://www.guckes.net/Setup/screenrc
 # Purpose:          Setup file for program "(GNU) screen"
@@ -277,10 +277,11 @@
 # ===============================================================
 # Uncomment one/some following lines to automatically let
 # SCREEN start some programs in the given window numbers:
-# screen -t MAIL        0 mutt
-# screen -t EDIT        1 vim
+  screen -t SH          0 shell
+  screen -t EDIT        1 vim
 # screen -t GOOGLE      2 links http://www.google.com
 # screen -t NEWS        3 slrn
+# screen -t WWW         4 links http://www.guckes.net/
 # screen -t WWW         4 links http://www.guckes.net/
 #
 # ===============================================================
@@ -384,6 +385,7 @@
 # shell         zsh
 #
 # most users will probably use the "bash" as the default shell:
+  shell         -/bin/bash
   shell         bash
 # shell         ksh
 # shell         tcsh
@@ -438,7 +440,7 @@
 # caption always "%?%F%{.RW}%?%3n %t%? [%h]%?"
 # caption always "%{rk}%H %{gk}%c %{yk}%M%d %{wk}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{wk}%?%+Lw%?"
 #
-  caption always "%{kG}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{kG}%?%+Lw%?"
+  caption always "%{kG}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{bw}%?%+Lw%?"
 #                 color--------color================color++++++++
 #
 # current CAPTION [2005-04-12]
@@ -490,7 +492,7 @@
 # instead, the info gets placed at 16%, 50%, and 80% so that it is
 # placed soemwhat in the middle of each of the three panels.
 # hardstatus alwayslastline "%{RY}%16=%H %33=%{YR}%50=%M%d %66=%{Gb}%80=%c%="
- hardstatus alwayslastline "%{bG} %H %66=%{Gb}%80=%d%M %c%="
+ hardstatus alwayslastline "%{bG}%25= (¯`·._.·(¯`·._.·(¯`·._.· %H | %M %d %c ·._.·´¯)·._.·´¯)·._.·´¯)%="
 #
 # 2003-08-19
 # insert the main url of the screen pages:
@@ -534,7 +536,8 @@
 # hardstatus alwayslastline "%{bw}%23`"
 #
 # "taken space in /home partition"
-# backtick 15..
+# backtick 15 0 0 DF=$(df -h -P | grep /Users/louis/|grep -o '[1-9]*%')
+# hardstatus alwayslastline "%{bw}%15`"
 # DF=$(df -h -P | grep /home|grep -o '[0-9]*%')
 #
 # Caveats:
