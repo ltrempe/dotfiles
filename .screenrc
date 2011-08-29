@@ -1,4 +1,4 @@
-j =====================================================================
+# =====================================================================
 # File:             $HOME/.screenrc of Sven Guckes
 # Available:        http://www.guckes.net/Setup/screenrc
 # Purpose:          Setup file for program "(GNU) screen"
@@ -277,8 +277,8 @@ j =====================================================================
 # ===============================================================
 # Uncomment one/some following lines to automatically let
 # SCREEN start some programs in the given window numbers:
-  screen -t SH          0 shell
-  screen -t EDIT        1 vim
+  screen -t SH          0
+  screen -t EDIT        1
 # screen -t GOOGLE      2 links http://www.google.com
 # screen -t NEWS        3 slrn
 # screen -t WWW         4 links http://www.guckes.net/
@@ -386,7 +386,7 @@ j =====================================================================
 #
 # most users will probably use the "bash" as the default shell:
   shell         -/bin/bash
-  shell         bash
+# shell         bash
 # shell         ksh
 # shell         tcsh
 # for an overview to shells see page http://georg.f-451.net/shells/
@@ -440,7 +440,7 @@ j =====================================================================
 # caption always "%?%F%{.RW}%?%3n %t%? [%h]%?"
 # caption always "%{rk}%H %{gk}%c %{yk}%M%d %{wk}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{wk}%?%+Lw%?"
 #
-  caption always "%{kG}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{bw}%?%+Lw%?"
+  caption always " %{kW}%?%-Lw%?%{kY}/ %n%f %t\%?(%u)%?%{kW} %?%+Lw%?"
 #                 color--------color================color++++++++
 #
 # current CAPTION [2005-04-12]
@@ -473,7 +473,7 @@ j =====================================================================
 # hardstatus alwayslastline " %c | %Y%m%d |  %w"
 #
 # This will show today's date in mmdd and the current time, too:
-# hardstatus alwayslastline " %m%d %c |  %w"
+ hardstatus alwayslastline " %m%d %c |  "
 #
 # combining all of these gives:
 # hardstatus alwayslastline "%{rw}%H%{wk}|%c|%M%d|%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{wk}%?%+Lw%?"
@@ -492,7 +492,7 @@ j =====================================================================
 # instead, the info gets placed at 16%, 50%, and 80% so that it is
 # placed soemwhat in the middle of each of the three panels.
 # hardstatus alwayslastline "%{RY}%16=%H %33=%{YR}%50=%M%d %66=%{Gb}%80=%c%="
- hardstatus alwayslastline "%{bG}%25= (¯`·._.·(¯`·._.·(¯`·._.· %H | %M %d %c ·._.·´¯)·._.·´¯)·._.·´¯)%="
+# hardstatus alwayslastline "%{bG}  (¯`·._.·(¯`·._.·(¯`·._.· %H | %M %d %c ·._.·´¯)·._.·´¯)·._.·´¯)%="
 #
 # 2003-08-19
 # insert the main url of the screen pages:
@@ -712,7 +712,7 @@ j =====================================================================
 # split       S
 # suspend     ^Z z
 # time        ^T t
-# title       A
+#  title     A
 # vbell       ^G
 # version     v
 # width       W
@@ -724,7 +724,7 @@ j =====================================================================
 # 2006-12-01 i hardly ever use xon+xoff.
 # but as the q is next to the a it is nice
 # to use it for entering copy mode.
-  bind q copy
+#  bind q copy
 #
 # ^]  paste .
 # -   select -
@@ -782,9 +782,6 @@ j =====================================================================
 # "'*,.:<=>?[\_{}
 # for krautboards (LANG=de_DE):
 # binding the umlauts ´äöü´:
-  bind ä copy
-  bind ö copy
-  bind ü copy
 # ===============================================================
 # Key bindings
 # ===============================================================
@@ -857,8 +854,8 @@ j =====================================================================
 #
 # changing to adjacent screen region up/down
 # in vi style key bindings
-  bind j focus down
-  bind k focus up
+#  bind j focus down
+#  bind k focus up
 # make current region the only region:
   bind o only
 #
@@ -933,46 +930,6 @@ j =====================================================================
 # to see all current bindings
 # of this file from within vi:
 # :g/^  bind [A-Z]/p
-# ===============================================================
-# BIND Sven's Bindings:
-# ===============================================================
-# bind A screen -t AUGSBURG 5 links http://imi.st/prog-LIT07.html
-  bind A select 10
-# bind B ...
-  bind C screen -t CHEMNITZ 9 links http://chemnitzer.linux-tage.de/2009/info/
-  bind D screen -t DICT     4 links dict.tu-chemnitz.de/pda
-# bind D screen -t DRESDEN  4 links http://linux-info-tag.de/100/room?track=17
-# bind D screen -t DRESDEN  4 links http://linux-info-tag.de/93/room?track=14 # program 2007
-  bind E screen -t DEEPSEC    links http://www.deepsec.net/
-  bind e screen -t mail     1 mutt
-  bind F screen -t FSCONS   4 links http://www.fscons.org/
-  bind G screen -t Google   0 lynx  www.google.com
-  bind H screen -t Heise    0 links www.heise.de
-  bind I screen -t IMDB     9 links http://us.imdb.com/search/
-# bind J screen -t Kunstlab 0 links http://kunstlabor.at/
-# bind K screen -t KDE      0 links http://conference2004.kde.org/
-# bind L screen -t LUX      0 links http://www.linuxdays.lu/agenda/linuxdays-2007
-  bind L screen -t LINZ     8 links http://www.iktforum.at/programme.html
-# bind M monitor # default!
-  bind N screen -t NB       8 newsbeuter
-# bind O screen -t WOS3     0 links http://wizards-of-os.org/
-  bind P paste .
-# bind Q screen -t HOME     0 links http://www.guckes.net/
-# bind R screen -t BRB      0 links http://www.linuxtag-brb.de/vortragsprogramm.html
-# Reload this configuration file after changes:
-  bind R colon "source $HOME/.screenrc"
-# bind S screen -t slrn     3 slrn -n -C -k0 -h news.vr.in-berlin.de
-# bind T screen -t T-DOSE     links http://www.t-dose.org/schedule/
-  bind T screen -t Thesaurus 7 links http://synonyme.woxikon.de/
-  bind V screen -t vim      0 vim -X
-# bind W screen -t WIEN     4 links http://linuxwochen.at/2007/Programm_Wien:_Index
-  bind W screen -t WIEN     4 links http://linuxwochen.at/
-  bind X lockscreen
-  bind Y stuff http://www.guckes.net/
-# bind Z screen -t HOME     8 links http://myblog.de/linuxweekend
-  bind Z screen -t Wetter   0 links http://www.donnerwetter.de/region/suchort.mv?search=10719
-  # f*ck, yeah! http://www.thefuckingweather.com/?zipcode=berlin+germany&CELSIUS=yes
-# bind Z screen -t Graz     4 links http://linuxtage.at/
 #
 # binding the CTRL-keys:
 # bind ^Y screen -t log watch -n 5 tail -23 /var/log/syslog
@@ -1534,3 +1491,4 @@ bind " " select 0
 # vim: set et ts=8 nowrap: THPXRF EOF
 
 shelltitle "$ |bash"
+shell /bin/bash
