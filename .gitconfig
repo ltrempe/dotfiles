@@ -1,0 +1,10 @@
+[color]
+	ui = auto
+[alias]
+	co = checkout
+	d = difftool
+	st = status
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
