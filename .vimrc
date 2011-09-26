@@ -1,4 +1,3 @@
-colorscheme desert256
 
 "set cursorline
 set term=xterm-256color
@@ -208,4 +207,4 @@ function! RedBar(message)
     echo a:message
 endfunction
 
-call pathogen#infect()
+"call pathogen#infect()

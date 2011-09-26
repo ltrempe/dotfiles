@@ -1,0 +1,528 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCESS_TOKEN	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/responsehandler/AuthenticationResponseHandler.java	/^    private static final String ACCESS_TOKEN = "access_token";$/;"	f	class:AuthenticationResponseHandler	file:
+ACTION_AUTHENTICATE	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String ACTION_AUTHENTICATE = "agi.content.actions.AUTHENTICATE";$/;"	f	class:AGIIntent
+ACTION_AUTHENTICATION_COMPLETED	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String ACTION_AUTHENTICATION_COMPLETED = "agi.content.actions.AUTHENTICATION_COMPLETED";$/;"	f	class:AGIIntent
+ACTION_AUTHENTICATION_PENDING	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String ACTION_AUTHENTICATION_PENDING = "agi.content.actions.AUTHENTICATION_PENDING";$/;"	f	class:AGIIntent
+ACTION_ERROR	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String ACTION_ERROR = "agi.content.actions.ERROR";$/;"	f	class:AGIIntent
+ACTION_GET_CATALOG	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String ACTION_GET_CATALOG = "agi.content.actions.GET_CATALOG";$/;"	f	class:AGIIntent
+ACTION_GET_CATALOG_COMPLETE	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String ACTION_GET_CATALOG_COMPLETE = "agi.content.actions.GET_CATALOG_COMPLETE";$/;"	f	class:AGIIntent
+ACTION_GET_CATALOG_PENDING	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String ACTION_GET_CATALOG_PENDING = "agi.content.actions.GET_CATALOG_PENDING";$/;"	f	class:AGIIntent
+ACTION_GET_USER	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String ACTION_GET_USER = "agi.content.actions.GET_USER";$/;"	f	class:AGIIntent
+ACTION_LOGOUT	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String ACTION_LOGOUT = "agi.content.actions.LOGOUT";$/;"	f	class:AGIIntent
+ACTION_LOGOUT_COMPELTE	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String ACTION_LOGOUT_COMPELTE = "agi.content.actions.LOGOUT_COMPELTE";$/;"	f	class:AGIIntent
+ACTION_LOGOUT_PENDING	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String ACTION_LOGOUT_PENDING = "agi.content.actions.LOGOUT_PENDING";$/;"	f	class:AGIIntent
+ACTION_NOTIFY_TOAST	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String ACTION_NOTIFY_TOAST = "agi.content.actions.NOTIFY_TOAST";$/;"	f	class:AGIIntent
+ACTION_VIEW_FORGOT_PASSWORD	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/content/AGIntent.java	/^    public static final String ACTION_VIEW_FORGOT_PASSWORD = "com.americangreetings.ecards.actions.VIEW_FORGOT_PASSWORD";$/;"	f	class:AGIntent
+ACTION_VIEW_LOGIN	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/content/AGIntent.java	/^    public static final String ACTION_VIEW_LOGIN = "com.americangreetings.ecards.actions.VIEW_LOGIN";$/;"	f	class:AGIntent
+ACTION_VIEW_STORE_FRONT	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/content/AGIntent.java	/^    public static final String ACTION_VIEW_STORE_FRONT = "com.americangreetings.ecards.actions.VIEW_STORE_FRONT";$/;"	f	class:AGIntent
+ACTION_VIEW_WELCOME_LOGIN	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/content/AGIntent.java	/^    public static final String ACTION_VIEW_WELCOME_LOGIN = "com.americangreetings.ecards.actions.VIEW_WELCOME_LOGIN";$/;"	f	class:AGIntent
+AGIApplication	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/AGIApplication.java	/^public interface AGIApplication {$/;"	i
+AGIIntent	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^public class AGIIntent {$/;"	c
+AGIProvider	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIProvider.java	/^public abstract class AGIProvider extends ContentProvider {$/;"	c
+AGIReceiver	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/receiver/AGIReceiver.java	/^public class AGIReceiver extends BroadcastReceiver {$/;"	c
+AGIService	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/AGIService.java	/^public class AGIService extends Service {$/;"	c
+AGIntent	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/content/AGIntent.java	/^public class AGIntent {$/;"	c
+AUTHENTICATE	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public static final String AUTHENTICATE = "agi.client.authinticate";$/;"	f	class:ServiceHelper
+AUTHENTICATION	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    private static final int AUTHENTICATION = 1;$/;"	f	class:AuthtenticateProvider	file:
+AUTHENTICATION_TOKEN	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    public static final String AUTHENTICATION_TOKEN = "authentication_token";$/;"	f	class:AuthtenticateProvider
+AbstractProcessor	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/processor/AbstractProcessor.java	/^    public AbstractProcessor(Context context, File cacheDir) {$/;"	m	class:AbstractProcessor
+AbstractProcessor	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/processor/AbstractProcessor.java	/^public abstract class AbstractProcessor {$/;"	c
+AbstractRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AbstractRequest.java	/^    public AbstractRequest(String clientId) {$/;"	m	class:AbstractRequest
+AbstractRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AbstractRequest.java	/^public class AbstractRequest {$/;"	c
+AbstractResponseHandler	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/responsehandler/AbstractResponseHandler.java	/^public abstract class AbstractResponseHandler {$/;"	c
+AbstractRestMethod	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/restmethod/AbstractRestMethod.java	/^    public AbstractRestMethod(File cacheDir) {$/;"	m	class:AbstractRestMethod
+AbstractRestMethod	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/restmethod/AbstractRestMethod.java	/^public abstract class AbstractRestMethod implements RestCommand {$/;"	c
+AbstractRunnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    public AbstractRunnable(Service service) {$/;"	m	class:AbstractRunnable
+AbstractRunnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^public abstract class AbstractRunnable implements Runnable {$/;"	c
+AbstractValidator	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/AbstractValidator.java	/^\/* package *\/ abstract class AbstractValidator implements IValidator {$/;"	c
+AuthRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AuthRequest.java	/^public interface AuthRequest {$/;"	i
+AuthenticationProcessor	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/processor/AuthenticationProcessor.java	/^    public AuthenticationProcessor(Context context, String clientId, File cacheDir) {$/;"	m	class:AuthenticationProcessor
+AuthenticationProcessor	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/processor/AuthenticationProcessor.java	/^public final class AuthenticationProcessor extends AbstractProcessor {$/;"	c
+AuthenticationRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/AuthenticationRequest.java	/^    public AuthenticationRequest(String clientId, String username, String password) {$/;"	m	class:AuthenticationRequest
+AuthenticationRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/AuthenticationRequest.java	/^public class AuthenticationRequest extends AbstractRequest implements AuthRequest {$/;"	c
+AuthenticationResponse	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/response/AuthenticationResponse.java	/^    public AuthenticationResponse(String errorMessage, int statusCode) {$/;"	m	class:AuthenticationResponse
+AuthenticationResponse	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/response/AuthenticationResponse.java	/^    public AuthenticationResponse(int statusCode) {$/;"	m	class:AuthenticationResponse
+AuthenticationResponse	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/response/AuthenticationResponse.java	/^public class AuthenticationResponse extends Response {$/;"	c
+AuthenticationResponseHandler	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/responsehandler/AuthenticationResponseHandler.java	/^public class AuthenticationResponseHandler extends AbstractResponseHandler implements ResponseHandler {$/;"	c
+AuthenticationRestMethod	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/restmethod/AuthenticationRestMethod.java	/^    public AuthenticationRestMethod(File cacheDir, String clientId, String username, String password) {$/;"	m	class:AuthenticationRestMethod
+AuthenticationRestMethod	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/restmethod/AuthenticationRestMethod.java	/^public class AuthenticationRestMethod extends AbstractRestMethod {$/;"	c
+AuthenticationRunnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AuthenticationRunnable.java	/^    public AuthenticationRunnable(Service service, String username, String password) {$/;"	m	class:AuthenticationRunnable
+AuthenticationRunnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AuthenticationRunnable.java	/^public class AuthenticationRunnable extends AbstractRunnable {$/;"	c
+AuthtenticateProvider	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^public class AuthtenticateProvider extends AGIProvider {$/;"	c
+BaseActivity	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/BaseActivity.java	/^public class BaseActivity extends Activity{$/;"	c
+BasicRequestor	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    public BasicRequestor(File cacheDir) {$/;"	m	class:BasicRequestor
+BasicRequestor	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^public class BasicRequestor implements Requestor {$/;"	c
+CATALOG	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/UriFactory.java	/^    public static final String CATALOG = "\/simple\/catalog\/";$/;"	f	class:UriFactory
+CATALOG_ID	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^    \/* package *\/ static final String CATALOG_ID = "10";$/;"	f	class:EcardsApplication
+CLIENT_ID	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AbstractRequest.java	/^    private static final String CLIENT_ID = "X-AG-Client-Id";$/;"	f	class:AbstractRequest	file:
+CLIENT_ID	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^    \/* package *\/ static final String CLIENT_ID = "19256";$/;"	f	class:EcardsApplication
+CONTENT_TYPE	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    public static final String CONTENT_TYPE = "vnd.android.cursor.dir\/vnd.photoworks.photoalbum.content.authentication_token";$/;"	f	class:AuthtenticateProvider
+CONTENT_TYPE	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String CONTENT_TYPE = "vnd.android.cursor.dir\/vnd.agiclient.content.agiuser";$/;"	f	class:UserProvider
+CONTENT_URI	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    public static final Uri CONTENT_URI = Uri.parse("content:\/\/" + HOST_NAME_AUTHORITY + "\/authentication");$/;"	f	class:AuthtenticateProvider
+CONTENT_URI	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/CatalogProvider.java	/^    public static final Uri CONTENT_URI = Uri.parse("content:\/\/"+ HOST_NAME_AUTHORITY + "\/catalog");$/;"	f	class:CatalogProvider
+CONTENT_URI	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final Uri CONTENT_URI = Uri.parse("content:\/\/" + HOST_NAME_AUTHORITY + "\/agiuser");$/;"	f	class:UserProvider
+CatalogProcessor	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/processor/CatalogProcessor.java	/^    public CatalogProcessor(Context context, File cacheDir) {$/;"	m	class:CatalogProcessor
+CatalogProcessor	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/processor/CatalogProcessor.java	/^public class CatalogProcessor extends AbstractProcessor {$/;"	c
+CatalogProvider	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/CatalogProvider.java	/^public class CatalogProvider extends ContentProvider {$/;"	c
+CatalogResponseHandler	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/responsehandler/CatalogResponseHandler.java	/^public class CatalogResponseHandler extends AbstractResponseHandler implements ResponseHandler {$/;"	c
+Close	html_snip_helper.vim	/^fun! Close()$/;"	f
+CookieJar	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/CookieJar.java	/^public class CookieJar {$/;"	c
+CountDown	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/util/CountDown.java	/^public interface CountDown {$/;"	i
+Counter	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/util/Counter.java	/^    public Counter(CountDown countDown, long millisInFuture, long countDownInterval) {$/;"	m	class:Counter
+Counter	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/util/Counter.java	/^public class Counter extends CountDownTimer {$/;"	c
+DATABASE_NAME	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/DatabaseHelper.java	/^    private static final String DATABASE_NAME = "AGIClient.db";$/;"	f	class:DatabaseHelper	file:
+DATABASE_VERSION	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/DatabaseHelper.java	/^    private static final int DATABASE_VERSION = 1;$/;"	f	class:DatabaseHelper	file:
+DEFAULT_STATUS_CODE	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    private static final int DEFAULT_STATUS_CODE = -1;$/;"	f	class:Response	file:
+DatabaseHelper	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/DatabaseHelper.java	/^    DatabaseHelper(Context context) {$/;"	m	class:DatabaseHelper
+DatabaseHelper	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/DatabaseHelper.java	/^public class DatabaseHelper extends SQLiteOpenHelper {$/;"	c
+DialogFactory	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/DialogFactory.java	/^public class DialogFactory {$/;"	c
+EMAIL	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String EMAIL = "email";$/;"	f	class:UserProvider
+ERROR_DIALOG_INVALID_CREDENTIALS	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private static final int ERROR_DIALOG_INVALID_CREDENTIALS = 1001;$/;"	f	class:LoginActivity	file:
+ERROR_DIALOG_INVALID_FORM	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private static final int ERROR_DIALOG_INVALID_FORM = 1000;$/;"	f	class:LoginActivity	file:
+ERROR_MESSAGE_DIALOG	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/DialogFactory.java	/^    public static final int ERROR_MESSAGE_DIALOG = 10001;$/;"	f	class:DialogFactory
+EVENTS_URL	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String EVENTS_URL = "events_url";$/;"	f	class:UserProvider
+EXTRA_CATEGORY	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String EXTRA_CATEGORY = "agi.content.extras.CATEGORY";$/;"	f	class:AGIIntent
+EXTRA_DURATION	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String EXTRA_DURATION = "agi.content.extras.DURATION";$/;"	f	class:AGIIntent
+EXTRA_ERROR_MESSAGE	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String EXTRA_ERROR_MESSAGE = "agi.content.extras.ERROR_MESSAGE";$/;"	f	class:AGIIntent
+EXTRA_MESSAGE	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String EXTRA_MESSAGE = "agi.content.extras.MESSAGE";$/;"	f	class:AGIIntent
+EXTRA_NEXT_ACTION	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String EXTRA_NEXT_ACTION = "agi.content.extras.NEXT_ACTION";$/;"	f	class:AGIIntent
+EXTRA_PASSWORD	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String EXTRA_PASSWORD = "agi.content.extras.PASSWORD";$/;"	f	class:AGIIntent
+EXTRA_USERNAME	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final String EXTRA_USERNAME = "agi.content.extras.USERNAME";$/;"	f	class:AGIIntent
+EcardsApplication	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^public class EcardsApplication extends Application implements AGIApplication {$/;"	c
+EcardsApplicationTest	../../mobile/apps/eCards/android/trunk/test/src/com/americangreetings/ecards/EcardsApplicationTest.java	/^public class EcardsApplicationTest {$/;"	c
+FIRST_NAME	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String FIRST_NAME = "first_name";$/;"	f	class:UserProvider
+FRIENDS_URL	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String FRIENDS_URL = "friends_url";$/;"	f	class:UserProvider
+FetchCatalogRunnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/FetchCatalogRunnable.java	/^    public FetchCatalogRunnable(Service service) {$/;"	m	class:FetchCatalogRunnable
+FetchCatalogRunnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/FetchCatalogRunnable.java	/^public class FetchCatalogRunnable extends AbstractRunnable {$/;"	c
+FileHttpCacheStorage	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/cache/FileHttpCacheStorage.java	/^    public FileHttpCacheStorage(File file, HttpCacheEntrySerializer httpCacheEntrySerializer) {$/;"	m	class:FileHttpCacheStorage
+FileHttpCacheStorage	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/cache/FileHttpCacheStorage.java	/^public class FileHttpCacheStorage implements HttpCacheStorage {$/;"	c
+ForgotPasswordActivity	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/ForgotPasswordActivity.java	/^public class ForgotPasswordActivity extends Activity implements View.OnClickListener{$/;"	c
+GET_CATALOG	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public static final String GET_CATALOG = "agi.client.catalog";$/;"	f	class:ServiceHelper
+GET_USER	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public static final String GET_USER = "agi.client.user";$/;"	f	class:ServiceHelper
+GetCatalogRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/GetCatalogRequest.java	/^    public GetCatalogRequest(String host) {$/;"	m	class:GetCatalogRequest
+GetCatalogRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/GetCatalogRequest.java	/^public class GetCatalogRequest implements GetRequest {$/;"	c
+GetCatalogRestMethod	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/restmethod/GetCatalogRestMethod.java	/^    public GetCatalogRestMethod(File cacheDir, String host, String catalogId) {$/;"	m	class:GetCatalogRestMethod
+GetCatalogRestMethod	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/restmethod/GetCatalogRestMethod.java	/^public class GetCatalogRestMethod extends AbstractRestMethod {$/;"	c
+GetRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/GetRequest.java	/^public interface GetRequest {$/;"	i
+HOST	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^    \/* package *\/ static final String HOST = "api.americangreetings.com";$/;"	f	class:EcardsApplication
+HOST_NAME_AUTHORITY	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    public static final String HOST_NAME_AUTHORITY = "agi.apiclient.content.auth";$/;"	f	class:AuthtenticateProvider
+HOST_NAME_AUTHORITY	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/CatalogProvider.java	/^    public static final String HOST_NAME_AUTHORITY = "agi.apiclient.content.catalog";$/;"	f	class:CatalogProvider
+HOST_NAME_AUTHORITY	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String HOST_NAME_AUTHORITY = "agi.apiclient.content.user";$/;"	f	class:UserProvider
+INBOX_URL	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String INBOX_URL = "inbox_url";$/;"	f	class:UserProvider
+IValidator	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/IValidator.java	/^public interface IValidator {$/;"	i
+InvalidFormDialogHandler	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^        public InvalidFormDialogHandler(Activity activity) {$/;"	m	class:LoginActivity.InvalidFormDialogHandler
+InvalidFormDialogHandler	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private class InvalidFormDialogHandler implements DialogInterface.OnClickListener {$/;"	c	class:LoginActivity
+LAST_NAME	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String LAST_NAME = "last_name";$/;"	f	class:UserProvider
+LENGTH_LONG	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final int LENGTH_LONG = Toast.LENGTH_LONG;$/;"	f	class:AGIIntent
+LENGTH_SHORT	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^    public static final int LENGTH_SHORT = Toast.LENGTH_SHORT;$/;"	f	class:AGIIntent
+LOGOUT	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public static final String LOGOUT = "agi.client.logout";$/;"	f	class:ServiceHelper
+LogInReceiver	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private class LogInReceiver extends BroadcastReceiver {$/;"	c	class:LoginActivity
+LoginActivity	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^public class LoginActivity extends Activity implements View.OnClickListener {$/;"	c
+LoginValidator	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/LoginValidator.java	/^    public LoginValidator(String email, String password) {$/;"	m	class:LoginValidator
+LoginValidator	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/LoginValidator.java	/^public class LoginValidator extends AbstractValidator {$/;"	c
+LogoutRunnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/LogoutRunnable.java	/^    public LogoutRunnable(Service service) {$/;"	m	class:LogoutRunnable
+LogoutRunnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/LogoutRunnable.java	/^public class LogoutRunnable extends AbstractRunnable {$/;"	c
+OUTBOX_URL	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String OUTBOX_URL = "outbox_url";$/;"	f	class:UserProvider
+PERMISSIONS_URL	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String PERMISSIONS_URL = "permissions_url";$/;"	f	class:UserProvider
+PREFERENCE_NAME	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIProvider.java	/^    public static final String PREFERENCE_NAME = "AGI";$/;"	f	class:AGIProvider
+PROGRESS_DIALOG	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/DialogFactory.java	/^    public static final int PROGRESS_DIALOG = 10000;$/;"	f	class:DialogFactory
+PROJECTION	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    public static final String[] PROJECTION = { AUTHENTICATION_TOKEN };$/;"	f	class:AuthtenticateProvider
+PROJECTION	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/CatalogProvider.java	/^    public static final String[] PROJECTION = {$/;"	f	class:CatalogProvider
+PROJECTION	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String[] PROJECTION = {$/;"	f	class:UserProvider
+PostRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/PostRequest.java	/^public interface PostRequest {$/;"	i
+R	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^public final class R {$/;"	c
+Requestor	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/Requestor.java	/^public interface Requestor {$/;"	i
+Response	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    public Response() {$/;"	m	class:Response
+Response	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    public Response(String errorMessage) {$/;"	m	class:Response
+Response	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    public Response(String errorMessage, int statusCode) {$/;"	m	class:Response
+Response	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    public Response(boolean isSuccess) {$/;"	m	class:Response
+Response	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    public Response(int statusCode) {$/;"	m	class:Response
+Response	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^public class Response {$/;"	c
+RestCommand	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/restmethod/RestCommand.java	/^public interface RestCommand {$/;"	i
+RunnableFactory	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/RunnableFactory.java	/^public class RunnableFactory {$/;"	c
+ServiceHelper	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    private ServiceHelper(Context context, ContentResolver contentResolver) {$/;"	m	class:ServiceHelper	file:
+ServiceHelper	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^public class ServiceHelper {$/;"	c
+SplashActivity	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/SplashActivity.java	/^public class SplashActivity extends Activity implements CountDown$/;"	c
+StoreFrontActivity	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/StoreFrontActivity.java	/^public class StoreFrontActivity extends Activity {$/;"	c
+USER	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    private static final int USER = 1;$/;"	f	class:UserProvider	file:
+USER_TYPE	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String USER_TYPE = "user_type";$/;"	f	class:UserProvider
+USER_URL	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String USER_URL = "user_url";$/;"	f	class:UserProvider
+UriFactory	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/UriFactory.java	/^public class UriFactory {$/;"	c
+UserProvider	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^public class UserProvider extends AGIProvider {$/;"	c
+agi.apiclient	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/AGIApplication.java	/^package agi.apiclient;$/;"	p
+agi.apiclient	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^package agi.apiclient;$/;"	p
+agi.apiclient.client	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/UriFactory.java	/^package agi.apiclient.client;$/;"	p
+agi.apiclient.client.request	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/AuthenticationRequest.java	/^package agi.apiclient.client.request;$/;"	p
+agi.apiclient.client.request	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/GetCatalogRequest.java	/^package agi.apiclient.client.request;$/;"	p
+agi.apiclient.client.response	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/response/AuthenticationResponse.java	/^package agi.apiclient.client.response;$/;"	p
+agi.apiclient.client.responsehandler	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/responsehandler/AuthenticationResponseHandler.java	/^package agi.apiclient.client.responsehandler;$/;"	p
+agi.apiclient.client.responsehandler	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/responsehandler/CatalogResponseHandler.java	/^package agi.apiclient.client.responsehandler;$/;"	p
+agi.apiclient.client.restmethod	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/restmethod/AuthenticationRestMethod.java	/^package agi.apiclient.client.restmethod;$/;"	p
+agi.apiclient.client.restmethod	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/restmethod/GetCatalogRestMethod.java	/^package agi.apiclient.client.restmethod;$/;"	p
+agi.apiclient.content	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIIntent.java	/^package agi.apiclient.content;$/;"	p
+agi.apiclient.content	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AGIProvider.java	/^package agi.apiclient.content;$/;"	p
+agi.apiclient.content	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^package agi.apiclient.content;$/;"	p
+agi.apiclient.content	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/CatalogProvider.java	/^package agi.apiclient.content;$/;"	p
+agi.apiclient.content	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/DatabaseHelper.java	/^package agi.apiclient.content;$/;"	p
+agi.apiclient.content	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^package agi.apiclient.content;$/;"	p
+agi.apiclient.processor	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/processor/AuthenticationProcessor.java	/^package agi.apiclient.processor;$/;"	p
+agi.apiclient.processor	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/processor/CatalogProcessor.java	/^package agi.apiclient.processor;$/;"	p
+agi.apiclient.receiver	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/receiver/AGIReceiver.java	/^package agi.apiclient.receiver;$/;"	p
+agi.apiclient.service	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/AGIService.java	/^package agi.apiclient.service;$/;"	p
+agi.apiclient.service	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/RunnableFactory.java	/^package agi.apiclient.service;$/;"	p
+agi.apiclient.service.runnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^package agi.apiclient.service.runnable;$/;"	p
+agi.apiclient.service.runnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AuthenticationRunnable.java	/^package agi.apiclient.service.runnable;$/;"	p
+agi.apiclient.service.runnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/FetchCatalogRunnable.java	/^package agi.apiclient.service.runnable;$/;"	p
+agi.apiclient.service.runnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/LogoutRunnable.java	/^package agi.apiclient.service.runnable;$/;"	p
+agi.restclient	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^package agi.restclient;$/;"	p
+agi.restclient	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/CookieJar.java	/^package agi.restclient;$/;"	p
+agi.restclient	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/Requestor.java	/^package agi.restclient;$/;"	p
+agi.restclient.cache	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/cache/FileHttpCacheStorage.java	/^package agi.restclient.cache;$/;"	p
+agi.restclient.processor	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/processor/AbstractProcessor.java	/^package agi.restclient.processor;$/;"	p
+agi.restclient.request	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AbstractRequest.java	/^package agi.restclient.request;$/;"	p
+agi.restclient.request	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AuthRequest.java	/^package agi.restclient.request;$/;"	p
+agi.restclient.request	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/GetRequest.java	/^package agi.restclient.request;$/;"	p
+agi.restclient.request	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/PostRequest.java	/^package agi.restclient.request;$/;"	p
+agi.restclient.response	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^package agi.restclient.response;$/;"	p
+agi.restclient.responsehandler	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/responsehandler/AbstractResponseHandler.java	/^package agi.restclient.responsehandler;$/;"	p
+agi.restclient.restmethod	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/restmethod/AbstractRestMethod.java	/^package agi.restclient.restmethod;$/;"	p
+agi.restclient.restmethod	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/restmethod/RestCommand.java	/^package agi.restclient.restmethod;$/;"	p
+app_name	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int app_name=0x7f040000;$/;"	f	class:R.string
+assertNotEmpty	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/AbstractValidator.java	/^    public final boolean assertNotEmpty(String text) {$/;"	m	class:AbstractValidator
+assertNotNull	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/AbstractValidator.java	/^    public final boolean assertNotNull(Object object) {$/;"	m	class:AbstractValidator
+attr	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^    public static final class attr {$/;"	c	class:R
+authenticate	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public final boolean authenticate(final String username, final String password) {$/;"	m	class:ServiceHelper
+authenticate	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/processor/AuthenticationProcessor.java	/^    public final void authenticate(final String username, final String password) {$/;"	m	class:AuthenticationProcessor
+authenticate	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    private Response authenticate(String url, UsernamePasswordCredentials credentials, AuthScope authScope, Header[] headers,$/;"	m	class:BasicRequestor	file:
+authenticationComplete	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public final void authenticationComplete() {$/;"	m	class:ServiceHelper
+buildCatalog	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    private String buildCatalog(String category) {$/;"	m	class:ServiceHelper	file:
+buildIntent	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    \/*package*\/ Intent buildIntent(final String key) {$/;"	m	class:ServiceHelper
+cancel	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int cancel=0x7f040003;$/;"	f	class:R.string
+cancel	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int cancel=0x7f050001;$/;"	f	class:R.id
+checkSuccess	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    private boolean checkSuccess() {$/;"	m	class:Response	file:
+clearCache	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/AGIApplication.java	/^    public ImageCache clearCache();$/;"	m	interface:AGIApplication
+clearCache	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^    public ImageCache clearCache(){$/;"	m	class:EcardsApplication
+com.americangreetings.ecards	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^package com.americangreetings.ecards;$/;"	p
+com.americangreetings.ecards	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/BaseActivity.java	/^package com.americangreetings.ecards;$/;"	p
+com.americangreetings.ecards	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/DialogFactory.java	/^package com.americangreetings.ecards;$/;"	p
+com.americangreetings.ecards	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^package com.americangreetings.ecards;$/;"	p
+com.americangreetings.ecards	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/ForgotPasswordActivity.java	/^package com.americangreetings.ecards;$/;"	p
+com.americangreetings.ecards	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^package com.americangreetings.ecards;$/;"	p
+com.americangreetings.ecards	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/SplashActivity.java	/^package com.americangreetings.ecards;$/;"	p
+com.americangreetings.ecards	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/StoreFrontActivity.java	/^package com.americangreetings.ecards;$/;"	p
+com.americangreetings.ecards	../../mobile/apps/eCards/android/trunk/test/src/com/americangreetings/ecards/EcardsApplicationTest.java	/^package com.americangreetings.ecards;$/;"	p
+com.americangreetings.ecards.content	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/content/AGIntent.java	/^package com.americangreetings.ecards.content;$/;"	p
+com.americangreetings.ecards.util	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/util/CountDown.java	/^package com.americangreetings.ecards.util;$/;"	p
+com.americangreetings.ecards.util	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/util/Counter.java	/^package com.americangreetings.ecards.util;$/;"	p
+com.americangreetings.ecards.validator	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/AbstractValidator.java	/^package com.americangreetings.ecards.validator;$/;"	p
+com.americangreetings.ecards.validator	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/IValidator.java	/^package com.americangreetings.ecards.validator;$/;"	p
+com.americangreetings.ecards.validator	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/LoginValidator.java	/^package com.americangreetings.ecards.validator;$/;"	p
+commands	../../mobile/apps/eCards/android/trunk/scripts/android_install.py	/^import commands$/;"	i
+contains	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    \/*package*\/ final boolean contains(String code) {$/;"	m	class:ServiceHelper
+createAuthenticateRunnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/RunnableFactory.java	/^    public static Runnable createAuthenticateRunnable(Service service, Intent intent, Bundle extras) {$/;"	m	class:RunnableFactory
+createClient	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    private void createClient() {$/;"	m	class:BasicRequestor	file:
+createDialog	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/DialogFactory.java	/^    public static Dialog createDialog(int dialogType, Activity activity, DialogInterface.OnClickListener onClickListener, String title, String message) {$/;"	m	class:DialogFactory
+createDialog	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/DialogFactory.java	/^    public static Dialog createDialog(int dialogType, Activity activity, String message, boolean indeterminate) {$/;"	m	class:DialogFactory
+createDialog	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/DialogFactory.java	/^    public static Dialog createDialog(int dialogType, Activity activity, String title, String message, boolean indeterminate) {$/;"	m	class:DialogFactory
+createRunnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/RunnableFactory.java	/^    public static Runnable createRunnable(Service service, Intent intent) {$/;"	m	class:RunnableFactory
+delete	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    public int delete(Uri uri, String selection, String[] selectionArgs) {$/;"	m	class:AuthtenticateProvider
+delete	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/CatalogProvider.java	/^    public int delete(Uri uri, String selection, String[] selectionArgs) {$/;"	m	class:CatalogProvider
+delete	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public int delete(Uri uri, String selection, String[] selectionArgs) {$/;"	m	class:UserProvider
+delete	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/processor/AbstractProcessor.java	/^    protected final int delete(Uri uri, String selection, String[] selectionArgs) {$/;"	m	class:AbstractProcessor
+devices	../../mobile/apps/eCards/android/trunk/scripts/android_install.py	/^devices = [o.split("\\t")[0] for o in devices]$/;"	v
+devices	../../mobile/apps/eCards/android/trunk/scripts/android_install.py	/^devices = commands.getoutput("adb devices | grep -v 'List'").strip().split("\\n")$/;"	v
+drawable	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^    public static final class drawable {$/;"	c	class:R
+ecardsApplication	../../mobile/apps/eCards/android/trunk/test/src/com/americangreetings/ecards/EcardsApplicationTest.java	/^    public void ecardsApplication() throws Exception {$/;"	m	class:EcardsApplicationTest
+emailAddress	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int emailAddress=0x7f050000;$/;"	f	class:R.id
+emailHint	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int emailHint=0x7f040008;$/;"	f	class:R.string
+emailIsValid	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/LoginValidator.java	/^    private boolean emailIsValid() {$/;"	m	class:LoginValidator	file:
+emptyEntry	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int emptyEntry=0x7f04000f;$/;"	f	class:R.string
+emptyEntryTitle	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int emptyEntryTitle=0x7f04000e;$/;"	f	class:R.string
+error_neutral_button	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int error_neutral_button=0x7f040001;$/;"	f	class:R.string
+execute	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/restmethod/AuthenticationRestMethod.java	/^    public Response execute() {$/;"	m	class:AuthenticationRestMethod
+execute	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/restmethod/GetCatalogRestMethod.java	/^    public Response execute() {$/;"	m	class:GetCatalogRestMethod
+execute	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/restmethod/AbstractRestMethod.java	/^    public abstract Response execute();$/;"	m	class:AbstractRestMethod
+execute	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/restmethod/RestCommand.java	/^    public Response execute();$/;"	m	interface:RestCommand
+executeRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    private Response executeRequest(HttpUriRequest httpMethod, ResponseHandler responseHandler) {$/;"	m	class:BasicRequestor	file:
+executeRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    private Response executeRequest(HttpUriRequest httpMethod, ResponseHandler responseHandler, CachingHttpClient client) {$/;"	m	class:BasicRequestor	file:
+executeRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    private Response executeRequest(HttpUriRequest httpMethod, ResponseHandler responseHandler,$/;"	m	class:BasicRequestor	file:
+fetchBaseCatalog	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/processor/CatalogProcessor.java	/^    public void fetchBaseCatalog(String host, String catalogId) {$/;"	m	class:CatalogProcessor
+forgotPassword	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int forgotPassword=0x7f04000a;$/;"	f	class:R.string
+forgotPassword	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int forgotPassword=0x7f050004;$/;"	f	class:R.id
+forgotPasswordMessage	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int forgotPasswordMessage=0x7f040012;$/;"	f	class:R.string
+forgotPasswordTitle	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int forgotPasswordTitle=0x7f040011;$/;"	f	class:R.string
+forgot_password	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int forgot_password=0x7f030000;$/;"	f	class:R.layout
+getAuthScope	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/AuthenticationRequest.java	/^    public AuthScope getAuthScope() {$/;"	m	class:AuthenticationRequest
+getAuthScope	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AuthRequest.java	/^    public AuthScope getAuthScope();$/;"	m	interface:AuthRequest
+getAuthToken	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/response/AuthenticationResponse.java	/^    public String getAuthToken() {$/;"	m	class:AuthenticationResponse
+getAuthToken	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/responsehandler/AuthenticationResponseHandler.java	/^    private AuthenticationResponse getAuthToken(AuthenticationResponse authResponse, HttpEntity entity) throws JSONException {$/;"	m	class:AuthenticationResponseHandler	file:
+getAuthenticationIntent	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    \/*package*\/ final Intent getAuthenticationIntent(final String username, final String password) {$/;"	m	class:ServiceHelper
+getCacheDir	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    protected final File getCacheDir() {$/;"	m	class:AbstractRunnable
+getCacheDir	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/processor/AbstractProcessor.java	/^    protected final File getCacheDir() {$/;"	m	class:AbstractProcessor
+getCatalog	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public final Cursor getCatalog() {$/;"	m	class:ServiceHelper
+getCatalog	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public final Cursor getCatalog(String category) {$/;"	m	class:ServiceHelper
+getCatalogComplete	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public final void getCatalogComplete() {$/;"	m	class:ServiceHelper
+getCatalogComplete	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public final void getCatalogComplete(String category) {$/;"	m	class:ServiceHelper
+getCatalogId	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/AGIApplication.java	/^    public String getCatalogId();$/;"	m	interface:AGIApplication
+getCatalogId	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    protected final String getCatalogId() {$/;"	m	class:AbstractRunnable
+getCatalogId	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^    public String getCatalogId() {$/;"	m	class:EcardsApplication
+getCatalogId	../../mobile/apps/eCards/android/trunk/test/src/com/americangreetings/ecards/EcardsApplicationTest.java	/^    public void getCatalogId(){$/;"	m	class:EcardsApplicationTest
+getClientId	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/AGIApplication.java	/^    public String getClientId();$/;"	m	interface:AGIApplication
+getClientId	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    protected final String getClientId() {$/;"	m	class:AbstractRunnable
+getClientId	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^    public String getClientId() {$/;"	m	class:EcardsApplication
+getClientId	../../mobile/apps/eCards/android/trunk/test/src/com/americangreetings/ecards/EcardsApplicationTest.java	/^    public void getClientId(){$/;"	m	class:EcardsApplicationTest
+getContentResolver	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    protected final ContentResolver getContentResolver() {$/;"	m	class:AbstractRunnable
+getContext	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    protected final Context getContext() {$/;"	m	class:AbstractRunnable
+getCookies	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    public List<Cookie> getCookies() {$/;"	m	class:BasicRequestor
+getCookies	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/Requestor.java	/^    public List<Cookie> getCookies();$/;"	m	interface:Requestor
+getCookies	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/restmethod/AbstractRestMethod.java	/^    public final String getCookies() {$/;"	m	class:AbstractRestMethod
+getDataFromAPI	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    private Response getDataFromAPI(String url, Header[] headers, ResponseHandler responseHandler) {$/;"	m	class:BasicRequestor	file:
+getEntity	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/PostRequest.java	/^    public HttpEntity getEntity() throws UnsupportedEncodingException;$/;"	m	interface:PostRequest
+getEntry	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/cache/FileHttpCacheStorage.java	/^    public HttpCacheEntry getEntry(String key) {$/;"	m	class:FileHttpCacheStorage
+getErrorMessage	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    public String getErrorMessage() {$/;"	m	class:Response
+getErrors	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/AbstractValidator.java	/^    abstract public String[] getErrors();$/;"	m	class:AbstractValidator
+getErrors	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/IValidator.java	/^    public String[] getErrors();$/;"	m	interface:IValidator
+getErrors	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/LoginValidator.java	/^    public String[] getErrors() {$/;"	m	class:LoginValidator
+getFile	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/cache/FileHttpCacheStorage.java	/^    private File getFile(String filename) throws FileNotFoundException {$/;"	m	class:FileHttpCacheStorage	file:
+getFileCacheDir	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/AGIApplication.java	/^    public File getFileCacheDir();$/;"	m	interface:AGIApplication
+getFileCacheDir	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^    public File getFileCacheDir() {$/;"	m	class:EcardsApplication
+getFileNameFromUrl	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/cache/FileHttpCacheStorage.java	/^    private String getFileNameFromUrl(String key) {$/;"	m	class:FileHttpCacheStorage	file:
+getHeaders	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/AuthenticationRequest.java	/^    public Header[] getHeaders() {$/;"	m	class:AuthenticationRequest
+getHeaders	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/GetCatalogRequest.java	/^    public Header[] getHeaders() {$/;"	m	class:GetCatalogRequest
+getHeaders	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AbstractRequest.java	/^    public Header[] getHeaders() {$/;"	m	class:AbstractRequest
+getHeaders	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AuthRequest.java	/^    public Header[] getHeaders();$/;"	m	interface:AuthRequest
+getHeaders	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/GetRequest.java	/^    public Header[] getHeaders();$/;"	m	interface:GetRequest
+getHeaders	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/PostRequest.java	/^    public Header[] getHeaders();$/;"	m	interface:PostRequest
+getHost	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/AGIApplication.java	/^    public String getHost();$/;"	m	interface:AGIApplication
+getHost	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    protected final String getHost() {$/;"	m	class:AbstractRunnable
+getHost	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^    public String getHost() {$/;"	m	class:EcardsApplication
+getHost	../../mobile/apps/eCards/android/trunk/test/src/com/americangreetings/ecards/EcardsApplicationTest.java	/^    public void getHost(){$/;"	m	class:EcardsApplicationTest
+getImageCache	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/AGIApplication.java	/^    public ImageCache getImageCache();$/;"	m	interface:AGIApplication
+getImageCache	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^    public ImageCache getImageCache(){$/;"	m	class:EcardsApplication
+getInstance	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public static synchronized ServiceHelper getInstance(final Context context, final ContentResolver contentResolver) {$/;"	m	class:ServiceHelper
+getInstance	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/DatabaseHelper.java	/^    public static synchronized DatabaseHelper getInstance(Context context) {$/;"	m	class:DatabaseHelper
+getJson	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/responsehandler/AbstractResponseHandler.java	/^    public JSONObject getJson(InputStream inputStream) {$/;"	m	class:AbstractResponseHandler
+getJsonContent	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/responsehandler/AbstractResponseHandler.java	/^    private JSONObject getJsonContent(InputStream inputStream) throws JSONException, IOException,$/;"	m	class:AbstractResponseHandler	file:
+getPrefrences	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    private SharedPreferences getPrefrences() {$/;"	m	class:AuthtenticateProvider	file:
+getPrefrences	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    private SharedPreferences getPrefrences() {$/;"	m	class:UserProvider	file:
+getSHost	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    protected final String getSHost() {$/;"	m	class:AbstractRunnable
+getStatusCode	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    public int getStatusCode() {$/;"	m	class:Response
+getType	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    public String getType(Uri uri) {$/;"	m	class:AuthtenticateProvider
+getType	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/CatalogProvider.java	/^    public String getType(Uri uri) {$/;"	m	class:CatalogProvider
+getType	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public String getType(Uri uri) {$/;"	m	class:UserProvider
+getUri	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/UriFactory.java	/^    public static String getUri(String host, String entryPoint) {$/;"	m	class:UriFactory
+getUri	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/UriFactory.java	/^    public static String getUri(String host, String entryPoint, String extras) {$/;"	m	class:UriFactory
+getUrl	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/AuthenticationRequest.java	/^    public String getUrl() {$/;"	m	class:AuthenticationRequest
+getUrl	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/GetCatalogRequest.java	/^    public String getUrl() {$/;"	m	class:GetCatalogRequest
+getUrl	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AuthRequest.java	/^    public String getUrl();$/;"	m	interface:AuthRequest
+getUrl	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/GetRequest.java	/^    public String getUrl();$/;"	m	interface:GetRequest
+getUrl	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/PostRequest.java	/^    public String getUrl();$/;"	m	interface:PostRequest
+getUser	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public final Cursor getUser() {$/;"	m	class:ServiceHelper
+getUserComplete	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public final void getUserComplete() {$/;"	m	class:ServiceHelper
+getUsernamePasswordCredentials	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/AuthenticationRequest.java	/^    public UsernamePasswordCredentials getUsernamePasswordCredentials() {$/;"	m	class:AuthenticationRequest
+getUsernamePasswordCredentials	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AuthRequest.java	/^    public UsernamePasswordCredentials getUsernamePasswordCredentials();$/;"	m	interface:AuthRequest
+handleAuthenticationCompleted	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private void handleAuthenticationCompleted(Intent intent) {$/;"	m	class:LoginActivity	file:
+handleAuthenticationPending	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private void handleAuthenticationPending() {$/;"	m	class:LoginActivity	file:
+handleCancelButtonClick	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/ForgotPasswordActivity.java	/^    private void handleCancelButtonClick() {$/;"	m	class:ForgotPasswordActivity	file:
+handleCancelButtonClick	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private void handleCancelButtonClick() {$/;"	m	class:LoginActivity	file:
+handleError	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    protected void handleError(String errorMessage) {$/;"	m	class:AbstractRunnable
+handleForgotPasswordClick	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private void handleForgotPasswordClick() {$/;"	m	class:LoginActivity	file:
+handleGetCatalogCompleteAction	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/receiver/AGIReceiver.java	/^    private void handleGetCatalogCompleteAction(ServiceHelper helper, Intent intent) {$/;"	m	class:AGIReceiver	file:
+handleResponse	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/responsehandler/AuthenticationResponseHandler.java	/^    public AuthenticationResponse handleResponse(HttpResponse httpResponse) {$/;"	m	class:AuthenticationResponseHandler
+handleResponse	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/responsehandler/CatalogResponseHandler.java	/^    public Response handleResponse(HttpResponse httpResponse) {$/;"	m	class:CatalogResponseHandler
+handleSendButtonClick	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/ForgotPasswordActivity.java	/^    private void handleSendButtonClick() {$/;"	m	class:ForgotPasswordActivity	file:
+handleSignInButtonClick	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private void handleSignInButtonClick() {$/;"	m	class:LoginActivity	file:
+handleValidSignInFormSubmit	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private void handleValidSignInFormSubmit(final String email, final String password) {$/;"	m	class:LoginActivity	file:
+icon	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int icon=0x7f020000;$/;"	f	class:R.drawable
+id	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^    public static final class id {$/;"	c	class:R
+imageCache	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^    private static ImageCache imageCache;$/;"	f	class:EcardsApplication	file:
+insert	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    public Uri insert(Uri uri, ContentValues values) {$/;"	m	class:AuthtenticateProvider
+insert	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/CatalogProvider.java	/^    public Uri insert(Uri uri, ContentValues values) {$/;"	m	class:CatalogProvider
+insert	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public Uri insert(Uri uri, ContentValues values) {$/;"	m	class:UserProvider
+insert	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/processor/AbstractProcessor.java	/^    protected final Uri insert(Uri uri, ContentValues values) {$/;"	m	class:AbstractProcessor
+invalidLoginEntry	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int invalidLoginEntry=0x7f04000d;$/;"	f	class:R.string
+invalidLoginEntryTitle	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int invalidLoginEntryTitle=0x7f04000c;$/;"	f	class:R.string
+isAuthenticated	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public final boolean isAuthenticated() {$/;"	m	class:ServiceHelper
+isAuthenticated	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/processor/AuthenticationProcessor.java	/^    public final boolean isAuthenticated() {$/;"	m	class:AuthenticationProcessor
+isAuthenticating	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public final boolean isAuthenticating() {$/;"	m	class:ServiceHelper
+isCachable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/AuthenticationRequest.java	/^    public boolean isCachable() {$/;"	m	class:AuthenticationRequest
+isCachable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/GetCatalogRequest.java	/^    public boolean isCachable() {$/;"	m	class:GetCatalogRequest
+isCachable	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AbstractRequest.java	/^    public boolean isCachable() {$/;"	m	class:AbstractRequest
+isCachable	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AuthRequest.java	/^    public boolean isCachable();$/;"	m	interface:AuthRequest
+isCachable	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/GetRequest.java	/^    public boolean isCachable();$/;"	m	interface:GetRequest
+isCachable	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/PostRequest.java	/^    public boolean isCachable();$/;"	m	interface:PostRequest
+isSuccess	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    public boolean isSuccess() {$/;"	m	class:Response
+isSuccess	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/responsehandler/AbstractResponseHandler.java	/^    public boolean isSuccess(int statusCode) {$/;"	m	class:AbstractResponseHandler
+isValid	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/AbstractValidator.java	/^    abstract public boolean isValid();$/;"	m	class:AbstractValidator
+isValid	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/IValidator.java	/^    public boolean isValid();$/;"	m	interface:IValidator
+isValid	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/LoginValidator.java	/^    public boolean isValid() {$/;"	m	class:LoginValidator
+layout	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^    public static final class layout {$/;"	c	class:R
+loginMessage	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int loginMessage=0x7f04000b;$/;"	f	class:R.string
+loginTitle	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int loginTitle=0x7f040007;$/;"	f	class:R.string
+login_progress	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int login_progress=0x7f040010;$/;"	f	class:R.string
+login_view	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int login_view=0x7f030001;$/;"	f	class:R.layout
+logout	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public final void logout() {$/;"	m	class:ServiceHelper
+logout	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/processor/AuthenticationProcessor.java	/^    public final void logout() {$/;"	m	class:AuthenticationProcessor
+logoutComplete	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    public final void logoutComplete() {$/;"	m	class:ServiceHelper
+mActivity	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^        private Activity mActivity;$/;"	f	class:LoginActivity.InvalidFormDialogHandler	file:
+mCacheClient	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    private CachingHttpClient mCacheClient;$/;"	f	class:BasicRequestor	file:
+mCacheDir	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    private File mCacheDir;$/;"	f	class:BasicRequestor	file:
+mCacheDir	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/processor/AbstractProcessor.java	/^    private File mCacheDir;$/;"	f	class:AbstractProcessor	file:
+mCancel	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private Button mCancel;$/;"	f	class:LoginActivity	file:
+mCancelButton	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/ForgotPasswordActivity.java	/^    private Button mCancelButton;$/;"	f	class:ForgotPasswordActivity	file:
+mCatalogId	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/restmethod/GetCatalogRestMethod.java	/^    private String mCatalogId;$/;"	f	class:GetCatalogRestMethod	file:
+mClient	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    private DefaultHttpClient mClient;$/;"	f	class:BasicRequestor	file:
+mClientId	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/AuthenticationRequest.java	/^    private String mClientId;$/;"	f	class:AuthenticationRequest	file:
+mClientId	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/restmethod/AuthenticationRestMethod.java	/^    private String mClientId;$/;"	f	class:AuthenticationRestMethod	file:
+mClientId	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/processor/AuthenticationProcessor.java	/^    String mClientId;$/;"	f	class:AuthenticationProcessor
+mClientId	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/request/AbstractRequest.java	/^    private String mClientId;$/;"	f	class:AbstractRequest	file:
+mContext	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    private Context mContext;$/;"	f	class:ServiceHelper	file:
+mContext	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/DatabaseHelper.java	/^    private final Context mContext;$/;"	f	class:DatabaseHelper	file:
+mContext	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/processor/AbstractProcessor.java	/^    private Context mContext;$/;"	f	class:AbstractProcessor	file:
+mCountDown	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/util/Counter.java	/^    private CountDown mCountDown;$/;"	f	class:Counter	file:
+mCurrentDialog	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private Dialog mCurrentDialog;$/;"	f	class:LoginActivity	file:
+mCurrentDialog	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/SplashActivity.java	/^    private Dialog mCurrentDialog;$/;"	f	class:SplashActivity	file:
+mCurrentDialogId	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    int mCurrentDialogId;$/;"	f	class:LoginActivity
+mEcardsApp	../../mobile/apps/eCards/android/trunk/test/src/com/americangreetings/ecards/EcardsApplicationTest.java	/^   EcardsApplication mEcardsApp;$/;"	f	class:EcardsApplicationTest
+mEditor	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    private SharedPreferences.Editor mEditor;$/;"	f	class:AuthtenticateProvider	file:
+mEditor	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    private SharedPreferences.Editor mEditor;$/;"	f	class:UserProvider	file:
+mEmail	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private EditText mEmail;$/;"	f	class:LoginActivity	file:
+mEmail	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/LoginValidator.java	/^    String mEmail;$/;"	f	class:LoginValidator
+mEmailAddress	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/ForgotPasswordActivity.java	/^    private TextView mEmailAddress;$/;"	f	class:ForgotPasswordActivity	file:
+mErrorMessage	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    protected String mErrorMessage;$/;"	f	class:Response
+mFile	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/cache/FileHttpCacheStorage.java	/^    private File mFile;$/;"	f	class:FileHttpCacheStorage	file:
+mForgotPassword	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private TextView mForgotPassword;$/;"	f	class:LoginActivity	file:
+mHost	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/GetCatalogRequest.java	/^    private String mHost;$/;"	f	class:GetCatalogRequest	file:
+mHost	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/restmethod/GetCatalogRestMethod.java	/^    private String mHost;$/;"	f	class:GetCatalogRestMethod	file:
+mHttpCacheEntrySerializer	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/cache/FileHttpCacheStorage.java	/^    private HttpCacheEntrySerializer mHttpCacheEntrySerializer;$/;"	f	class:FileHttpCacheStorage	file:
+mIsSignedIn	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/SplashActivity.java	/^    private boolean mIsSignedIn;$/;"	f	class:SplashActivity	file:
+mIsSuccess	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    protected boolean mIsSuccess = false;$/;"	f	class:Response
+mNextAction	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private String mNextAction;$/;"	f	class:LoginActivity	file:
+mPassword	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/AuthenticationRequest.java	/^    private String mPassword;$/;"	f	class:AuthenticationRequest	file:
+mPassword	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/restmethod/AuthenticationRestMethod.java	/^    private String mPassword;$/;"	f	class:AuthenticationRestMethod	file:
+mPassword	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AuthenticationRunnable.java	/^    private String mPassword;$/;"	f	class:AuthenticationRunnable	file:
+mPassword	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private EditText mPassword;$/;"	f	class:LoginActivity	file:
+mPassword	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/LoginValidator.java	/^    String mPassword;$/;"	f	class:LoginValidator
+mPreferences	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    private SharedPreferences mPreferences;$/;"	f	class:AuthtenticateProvider	file:
+mPreferences	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    private SharedPreferences mPreferences;$/;"	f	class:UserProvider	file:
+mReceiver	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private BroadcastReceiver mReceiver;$/;"	f	class:LoginActivity	file:
+mRequestor	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/restmethod/AbstractRestMethod.java	/^    private Requestor mRequestor;$/;"	f	class:AbstractRestMethod	file:
+mRunnable	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/AGIService.java	/^    Runnable mRunnable;$/;"	f	class:AGIService
+mRunningActions	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    private HashMap<String, Intent> mRunningActions;$/;"	f	class:ServiceHelper	file:
+mSendButton	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/ForgotPasswordActivity.java	/^    private Button mSendButton;$/;"	f	class:ForgotPasswordActivity	file:
+mService	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    private Service mService;$/;"	f	class:AbstractRunnable	file:
+mServiceHelper	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private ServiceHelper mServiceHelper;$/;"	f	class:LoginActivity	file:
+mServiceHelper	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/StoreFrontActivity.java	/^    ServiceHelper mServiceHelper;$/;"	f	class:StoreFrontActivity
+mSignin	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    private Button mSignin;$/;"	f	class:LoginActivity	file:
+mStatusCode	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    private int mStatusCode = DEFAULT_STATUS_CODE;$/;"	f	class:Response	file:
+mThread	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/AGIService.java	/^    Thread mThread;$/;"	f	class:AGIService
+mToken	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/response/AuthenticationResponse.java	/^    private String mToken;$/;"	f	class:AuthenticationResponse	file:
+mUsername	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/request/AuthenticationRequest.java	/^    private String mUsername;$/;"	f	class:AuthenticationRequest	file:
+mUsername	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/restmethod/AuthenticationRestMethod.java	/^    private String mUsername;$/;"	f	class:AuthenticationRestMethod	file:
+mUsername	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AuthenticationRunnable.java	/^    private String mUsername;$/;"	f	class:AuthenticationRunnable	file:
+main	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int main=0x7f030002;$/;"	f	class:R.layout
+makeRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    public Response makeRequest(AuthRequest request, ResponseHandler responseHandler) {$/;"	m	class:BasicRequestor
+makeRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    public Response makeRequest(GetRequest request, ResponseHandler responseHandler) {$/;"	m	class:BasicRequestor
+makeRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    public Response makeRequest(PostRequest request, ResponseHandler responseHandler) {$/;"	m	class:BasicRequestor
+makeRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/Requestor.java	/^    public Response makeRequest(AuthRequest request, ResponseHandler responseHandler);$/;"	m	interface:Requestor
+makeRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/Requestor.java	/^    public Response makeRequest(GetRequest request, ResponseHandler responseHandler);$/;"	m	interface:Requestor
+makeRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/Requestor.java	/^    public Response makeRequest(PostRequest request, ResponseHandler responseHandler);$/;"	m	interface:Requestor
+makeRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/restmethod/AbstractRestMethod.java	/^    public final Response makeRequest(AuthRequest request, ResponseHandler responseHandler) {$/;"	m	class:AbstractRestMethod
+makeRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/restmethod/AbstractRestMethod.java	/^    public final Response makeRequest(GetRequest request, ResponseHandler responseHandler) {$/;"	m	class:AbstractRestMethod
+makeRequest	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/restmethod/AbstractRestMethod.java	/^    public final Response makeRequest(PostRequest request, ResponseHandler responseHandler) {$/;"	m	class:AbstractRestMethod
+onBind	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/AGIService.java	/^    public IBinder onBind(android.content.Intent intent) {$/;"	m	class:AGIService
+onClick	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/ForgotPasswordActivity.java	/^    public void onClick(View view) {$/;"	m	class:ForgotPasswordActivity
+onClick	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^        public void onClick(DialogInterface dialogInterface, int which) {$/;"	m	class:LoginActivity.InvalidFormDialogHandler
+onClick	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    public void onClick(View view) {$/;"	m	class:LoginActivity
+onCreate	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    public boolean onCreate() {$/;"	m	class:AuthtenticateProvider
+onCreate	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/CatalogProvider.java	/^    public boolean onCreate() {$/;"	m	class:CatalogProvider
+onCreate	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/DatabaseHelper.java	/^    public void onCreate(SQLiteDatabase db) {$/;"	m	class:DatabaseHelper
+onCreate	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public boolean onCreate() {$/;"	m	class:UserProvider
+onCreate	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/BaseActivity.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:BaseActivity
+onCreate	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^    public void onCreate() {$/;"	m	class:EcardsApplication
+onCreate	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/ForgotPasswordActivity.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:ForgotPasswordActivity
+onCreate	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:LoginActivity
+onCreate	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/SplashActivity.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:SplashActivity
+onCreate	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/StoreFrontActivity.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:StoreFrontActivity
+onCreateDialog	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    protected Dialog onCreateDialog(int id) {$/;"	m	class:LoginActivity
+onCreateDialog	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/SplashActivity.java	/^    protected Dialog onCreateDialog(int id) {$/;"	m	class:SplashActivity
+onFinish	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/util/Counter.java	/^    public void onFinish() {$/;"	m	class:Counter
+onReceive	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/receiver/AGIReceiver.java	/^    public void onReceive(Context context, Intent intent) {$/;"	m	class:AGIReceiver
+onReceive	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^        public void onReceive(Context context, Intent intent) {$/;"	m	class:LoginActivity.LogInReceiver
+onResume	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/SplashActivity.java	/^    public void onResume() {$/;"	m	class:SplashActivity
+onStart	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/AGIService.java	/^    public void onStart(android.content.Intent intent, int startId) {$/;"	m	class:AGIService
+onStop	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/LoginActivity.java	/^    public void onStop() {$/;"	m	class:LoginActivity
+onTick	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/util/Counter.java	/^    public void onTick(long millisUntilFinished) { return; }$/;"	m	class:Counter
+onUpgrade	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/DatabaseHelper.java	/^    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {$/;"	m	class:DatabaseHelper
+parseFromString	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/CookieJar.java	/^    public static ArrayList<Cookie> parseFromString(String cookiesValues) {$/;"	m	class:CookieJar
+password	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int password=0x7f050003;$/;"	f	class:R.id
+passwordHint	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int passwordHint=0x7f040009;$/;"	f	class:R.string
+passwordIsValid	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/validator/LoginValidator.java	/^    private boolean passwordIsValid() {$/;"	m	class:LoginValidator	file:
+postToAPI	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    private Response postToAPI(String url, HttpEntity entity, Header[] headers, ResponseHandler responseHandler) {$/;"	m	class:BasicRequestor	file:
+putEntry	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/cache/FileHttpCacheStorage.java	/^    public void putEntry(String key, HttpCacheEntry entry) {$/;"	m	class:FileHttpCacheStorage
+query	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    public Cursor query(Uri uri, String[] projection, String selection, String[] selectionArgs, String sortOrder) {$/;"	m	class:AuthtenticateProvider
+query	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/CatalogProvider.java	/^    public Cursor query(Uri uri, String[] projection, String selection, String[] selectionArgs, String sortOrder) {$/;"	m	class:CatalogProvider
+query	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public Cursor query(Uri uri, String[] projection, String selection, String[] selectionArgs, String sortOrder) {$/;"	m	class:UserProvider
+query	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/processor/AbstractProcessor.java	/^    protected final Cursor query(Uri uri, String[] projection, String selection, String[] selectionArgs, String sortOrder) {$/;"	m	class:AbstractProcessor
+queryCatalog	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    private final Cursor queryCatalog() {$/;"	m	class:ServiceHelper	file:
+queryCatalog	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    private final Cursor queryCatalog(String selection) {$/;"	m	class:ServiceHelper	file:
+register	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    \/*package*\/ final Intent register(String code, final Intent intent) {$/;"	m	class:ServiceHelper
+removeEntry	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/cache/FileHttpCacheStorage.java	/^    public void removeEntry(String key) {$/;"	m	class:FileHttpCacheStorage
+reset	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    \/*package*\/ final void reset() {$/;"	m	class:ServiceHelper
+run	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    public abstract void run();$/;"	m	class:AbstractRunnable
+run	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AuthenticationRunnable.java	/^    public void run() {$/;"	m	class:AuthenticationRunnable
+run	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/FetchCatalogRunnable.java	/^    public void run() {$/;"	m	class:FetchCatalogRunnable
+run	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/LogoutRunnable.java	/^    public void run() {$/;"	m	class:LogoutRunnable
+s:did_snip_helper	html_snip_helper.vim	/^let s:did_snip_helper = 1$/;"	v
+sContentResolver	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    static ContentResolver sContentResolver;$/;"	f	class:ServiceHelper
+sSingleton	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    static ServiceHelper sSingleton;$/;"	f	class:ServiceHelper
+sSingleton	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/DatabaseHelper.java	/^    static DatabaseHelper sSingleton = null;$/;"	f	class:DatabaseHelper
+sTag	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/responsehandler/AuthenticationResponseHandler.java	/^    private static final String sTag = "AuthenticationResponseHandler";$/;"	f	class:AuthenticationResponseHandler	file:
+sTag	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/responsehandler/CatalogResponseHandler.java	/^    private static final String sTag = "CatalogResponseHandler";$/;"	f	class:CatalogResponseHandler	file:
+sTag	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    public static final String sTag = "AuthtenticateProvider";$/;"	f	class:AuthtenticateProvider
+sTag	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/CatalogProvider.java	/^    public static final String sTag = "CatalogProvider";$/;"	f	class:CatalogProvider
+sTag	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public static final String sTag = "UserProvider";$/;"	f	class:UserProvider
+sTag	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/BasicRequestor.java	/^    public static final String sTag = "BasicRequestor";$/;"	f	class:BasicRequestor
+sTag	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/responsehandler/AbstractResponseHandler.java	/^    public static final String sTag = "AbstractResponseHandler";$/;"	f	class:AbstractResponseHandler
+sTag	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/SplashActivity.java	/^    private static final String sTag = "SplashActivity";$/;"	f	class:SplashActivity	file:
+sUriMatcher	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    private static final UriMatcher sUriMatcher = new UriMatcher(UriMatcher.NO_MATCH);$/;"	f	class:AuthtenticateProvider	file:
+sUriMatcher	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    private static final UriMatcher sUriMatcher = new UriMatcher(UriMatcher.NO_MATCH);$/;"	f	class:UserProvider	file:
+saveToken	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/processor/AuthenticationProcessor.java	/^    private void saveToken(String token) {$/;"	m	class:AuthenticationProcessor	file:
+send	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int send=0x7f040004;$/;"	f	class:R.string
+send	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int send=0x7f050002;$/;"	f	class:R.id
+sendBroadcast	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    protected final void sendBroadcast(Intent intent) {$/;"	m	class:AbstractRunnable
+sendBroadcast	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/processor/AbstractProcessor.java	/^    protected final void sendBroadcast(String action) {$/;"	m	class:AbstractProcessor
+sendBroadcast	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/processor/AbstractProcessor.java	/^    protected final void sendBroadcast(String action, Bundle bundle) {$/;"	m	class:AbstractProcessor
+setAuthToken	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/client/response/AuthenticationResponse.java	/^    public void setAuthToken(String token) {$/;"	m	class:AuthenticationResponse
+setErrorMessage	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/response/Response.java	/^    public void setErrorMessage(String message) {$/;"	m	class:Response
+setup	../../mobile/apps/eCards/android/trunk/test/src/com/americangreetings/ecards/EcardsApplicationTest.java	/^    public void setup()throws Exception  {$/;"	m	class:EcardsApplicationTest
+setupHttpLogging	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/EcardsApplication.java	/^    private void setupHttpLogging() {$/;"	m	class:EcardsApplication	file:
+shouldUpdate	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/processor/AbstractProcessor.java	/^    protected final boolean shouldUpdate(Uri uri, String[] projection, String selection, String[] selectionArgs) {$/;"	m	class:AbstractProcessor
+showToast	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/receiver/AGIReceiver.java	/^    private void showToast(Context context, String message, int duration) {$/;"	m	class:AGIReceiver	file:
+signIn	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int signIn=0x7f040002;$/;"	f	class:R.string
+signIn	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int signIn=0x7f050005;$/;"	f	class:R.id
+splash_progress	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int splash_progress=0x7f040005;$/;"	f	class:R.string
+splash_view	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int splash_view=0x7f030003;$/;"	f	class:R.layout
+startActivity	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    protected final void startActivity(Intent intent) {$/;"	m	class:AbstractRunnable
+startService	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    protected final void startService(Intent intent) {$/;"	m	class:AbstractRunnable
+stopService	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/service/runnable/AbstractRunnable.java	/^    protected final void stopService() {$/;"	m	class:AbstractRunnable
+string	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^    public static final class string {$/;"	c	class:R
+sys	../../mobile/apps/eCards/android/trunk/scripts/android_install.py	/^import sys$/;"	i
+tearDown	../../mobile/apps/eCards/android/trunk/test/src/com/americangreetings/ecards/EcardsApplicationTest.java	/^    public void tearDown ()throws Exception  {$/;"	m	class:EcardsApplicationTest
+throwUnsupportedOperationException	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    private void throwUnsupportedOperationException(String action, Uri uri) {$/;"	m	class:AuthtenticateProvider	file:
+throwUnsupportedOperationException	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    private void throwUnsupportedOperationException(String action, Uri uri) {$/;"	m	class:UserProvider	file:
+timerComplete	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/SplashActivity.java	/^    public void timerComplete() {$/;"	m	class:SplashActivity
+timerComplete	../../mobile/apps/eCards/android/trunk/main/src/com/americangreetings/ecards/util/CountDown.java	/^    public void timerComplete();$/;"	m	interface:CountDown
+toString	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/CookieJar.java	/^    public static String toString(List<Cookie> cookies) {$/;"	m	class:CookieJar
+unregister	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/ServiceHelper.java	/^    \/*package*\/ final Intent unregister(String code) {$/;"	m	class:ServiceHelper
+update	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/AuthtenticateProvider.java	/^    public int update(Uri uri, ContentValues values, String selection, String[] selectionArgs) {$/;"	m	class:AuthtenticateProvider
+update	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/CatalogProvider.java	/^    public int update(Uri uri, ContentValues values, String selection, String[] selectionArgs) {$/;"	m	class:CatalogProvider
+update	../../mobile/apps/eCards/android/trunk/main/src/agi/apiclient/content/UserProvider.java	/^    public int update(Uri uri, ContentValues values, String selection, String[] selectionArgs) {$/;"	m	class:UserProvider
+update	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/processor/AbstractProcessor.java	/^    protected final int update(Uri uri, ContentValues values, String selection, String[] selectionArgs) {$/;"	m	class:AbstractProcessor
+updateEntry	../../mobile/apps/eCards/android/trunk/main/src/agi/restclient/cache/FileHttpCacheStorage.java	/^    public void updateEntry(String key, HttpCacheUpdateCallback callback) {$/;"	m	class:FileHttpCacheStorage
+welcomeLoginMessage	../../mobile/apps/eCards/android/trunk/gen/com/americangreetings/ecards/R.java	/^        public static final int welcomeLoginMessage=0x7f040006;$/;"	f	class:R.string
