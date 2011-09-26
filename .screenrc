@@ -472,7 +472,7 @@
 # This will show the current time and today's date in YYmmdd, too:
 # hardstatus alwayslastline " %c | %Y%m%d |  %w"
 #
-# This will show today's date in mmdd and the current time, too:
+ hardstatus alwayslastline " %m - %d %c |  "
  hardstatus alwayslastline " %m%d %c |  "
 #
 # combining all of these gives:
